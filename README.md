@@ -5,6 +5,7 @@ This paper is accepted for an oral presentation in **BioASQ Workshop @ ECML PKDD
 
 
 ## The code will be released in October, 2019.
+Please refer our [BioBERT](https://github.com/dmis-lab/biobert) gitub until we relase our code. (Please be informed that BioBERT repository contains codes for factoid type questions only.)
 
 ## Contact information
 
