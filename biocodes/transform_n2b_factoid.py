@@ -81,7 +81,7 @@ for qid in qidDict:
 	else:
 	    sortedSumDictKeyDict[text.lower()]=text
 	    sortedSumDict[sortedSumDictKeyDict[text.lower()]] = sortedDf.ix[index]["probability"]        
-    finalSorted=sorted(sortedSumDict.iteritems(), key=operator.itemgetter(1), reverse=True)
+    finalSorted=sorted(sortedSumDict.items(), key=operator.itemgetter(1), reverse=True) # for python 2, use sortedSumDict.iteritems() instead of sortedSumDict.items()
 
     
     entry={u"type":"factoid", 
