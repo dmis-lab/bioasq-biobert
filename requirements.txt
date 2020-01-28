@@ -1,4 +1,4 @@
-tensorflow-gpu==1.11.0  # GPU version of TensorFlow. Please be advised that our code is not compatible with TensorFlow v2.
+tensorflow-gpu==1.15.2  # GPU version of TensorFlow. Please be advised that our code is not compatible with TensorFlow v2.
 pandas==0.23
 numpy
 
