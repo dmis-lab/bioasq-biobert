@@ -3,6 +3,33 @@ This repository provides the source code and pre-processed datasets of our parti
 <br>Please refer to our paper [Pre-trained Language Model for Biomedical Question Answering](https://arxiv.org/abs/1909.08229) for more details.
 This paper is accepted for an oral presentation in **BioASQ Workshop @ ECML PKDD 2019**.
 
+## Citation
+
+Please cite [the published version of the paper](https://link.springer.com/chapter/10.1007/978-3-030-43887-6_64):
+```
+@InProceedings{10.1007/978-3-030-43887-6_64,
+  author="Yoon, Wonjin and Lee, Jinhyuk and Kim, Donghyeon and Jeong, Minbyul and Kang, Jaewoo",
+  editor="Cellier, Peggy and Driessens, Kurt",
+  title="Pre-trained Language Model for Biomedical Question Answering",
+  booktitle="Machine Learning and Knowledge Discovery in Databases",
+  year="2020",
+  publisher="Springer International Publishing",
+  address="Cham",
+  pages="727--740",
+  isbn="978-3-030-43887-6"
+}
+```
+
+Also, we wish you to cite [BioBERT paper](http://dx.doi.org/10.1093/bioinformatics/btz682) as well since our model is based on BioBERT pre-trained weight. 
+```
+@article{lee2019biobert,
+  title={BioBERT: a pre-trained biomedical language representation model for biomedical text mining},
+  author={Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and Kim, Donghyeon and Kim, Sunkyu and So, Chan Ho and Kang, Jaewoo},
+  doi = {10.1093/bioinformatics/btz682}, 
+  journal={Bioinformatics},
+  year={2019}
+}
+```
 
 ## Installation
 Please note that this repository is based on the [BioBERT repository](https://github.com/dmis-lab/biobert).
@@ -113,28 +140,6 @@ Following is our result of five independent experiments on yesno (6b) questions 
 ## License and Disclaimer
 Please see and agree `LICENSE` file for details. Downloading data indicates your acceptance of our disclaimer.
 
-## Citation
-
-For now, please cite [the Arxiv paper](https://arxiv.org/abs/1909.08229):
-```
-@article{yoon2019pre,
-  title={Pre-trained Language Model for Biomedical Question Answering},
-  author={Yoon, Wonjin and Lee, Jinhyuk and Kim, Donghyeon and Jeong, Minbyul and Kang, Jaewoo},
-  journal={arXiv preprint arXiv:1909.08229},
-  year={2019}
-}
-```
-
-Also, we wish you to cite [BioBERT paper](http://dx.doi.org/10.1093/bioinformatics/btz682) as well since our model is based on BioBERT pre-trained weight. 
-```
-@article{lee2019biobert,
-  title={BioBERT: a pre-trained biomedical language representation model for biomedical text mining},
-  author={Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and Kim, Donghyeon and Kim, Sunkyu and So, Chan Ho and Kang, Jaewoo},
-  doi = {10.1093/bioinformatics/btz682}, 
-  journal={Bioinformatics},
-  year={2019}
-}
-```
 
 ## Contact information
 
