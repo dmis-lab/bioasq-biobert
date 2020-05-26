@@ -70,17 +70,17 @@ for qid in qidDict:
 
 	    
     for index in sortedDf.index:
-	text=sortedDf.ix[index]["text"]
+	text=sortedDf.iloc[index]["text"]
 	text=textrip(text)
 	if text=="":
 	    pass
 	elif len(text)>100:
             pass
 	elif text.lower() in sortedSumDictKeyDict:
-	    sortedSumDict[sortedSumDictKeyDict[text.lower()]] += sortedDf.ix[index]["probability"]
+	    sortedSumDict[sortedSumDictKeyDict[text.lower()]] += sortedDf.iloc[index]["probability"]
 	else:
 	    sortedSumDictKeyDict[text.lower()]=text
-	    sortedSumDict[sortedSumDictKeyDict[text.lower()]] = sortedDf.ix[index]["probability"]        
+	    sortedSumDict[sortedSumDictKeyDict[text.lower()]] = sortedDf.iloc[index]["probability"]        
     finalSorted=sorted(sortedSumDict.items(), key=operator.itemgetter(1), reverse=True) # for python 2, use sortedSumDict.iteritems() instead of sortedSumDict.items()
 
     
