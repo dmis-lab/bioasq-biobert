@@ -53,7 +53,7 @@ Be sure to set the output folder of step 2 as a different folder of step 1.
 
 ## Datasets
 We provide pre-processed version of BioASQ 6b/7b - Phase B datasets for each task as follows:
-*   **[`BioASQ 6b/7b`](https://drive.google.com/open?id=1-KzAQzaE-Zd4jOlZG_7k7D4odqPI3dL1)** (23 MB) Last update : 15th Oct. 2019 
+*   **[`BioASQ 6b/7b`](https://drive.google.com/file/d/1-KefyBWOaCuswy9LFwnq7NC0H1Ymkv05/view?usp=sharing)** (23 MB) Last update : 15th Oct. 2019 
 
 Due to the copyright issue, we can not provide golden answers for BioASQ 6b test dataset at the moment. 
 **However, you can extract golden answers for 6b from original BioASQ 7b dataset.**
