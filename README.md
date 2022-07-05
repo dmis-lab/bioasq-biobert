@@ -40,7 +40,7 @@ We only used training set of SQuAD datasets.
 <br>For best performance, please use `BioBERT v1.1-SQuAD v1.1` for factoid and list questions and `BioBERT v1.1-SQuAD v2.0` for yseno questions.
 *   **[`BioBERT v1.1 - SQuAD v1.1`](https://drive.google.com/file/d/1-jIhuBOXv8ncXKAoFTWcN9fGiY97HCcN/view?usp=sharing)** : Recommanded for factoid and list questions
 <br>`SHA-1 Checksum : 408809150A23B4B99EFD21AF2B4ACEA52B31F3D9`
-*   **[`BioBERT v1.1 - SQuAD v2.0`](https://drive.google.com/open?id=1AR6CLa17oMjdnYtV1xF3w9GygSrElmxK)** : Recommanded for yseno questions
+*   **[`BioBERT v1.1 - SQuAD v2.0`](http://nlp.dmis.korea.edu/projects/bioasq-biobert-2019-checkpoints/BERT-pubmed-1000000-SQuAD2.tar.gz)** : Recommanded for yseno questions
 <br>`SHA-1 Checksum : 9A10621691BFEB834CBFD5F81E9D2C099247803A`
 *   **[`bert_config.json`](https://drive.google.com/open?id=17fX1-oChZ5rxu-e-JuaZl2I96q1dGJO4) [`vocab.txt`](https://drive.google.com/open?id=1GQUvBbXvlI_PeUPsZTqh7xQDZMOXh7ko)** : Essential files.
 
