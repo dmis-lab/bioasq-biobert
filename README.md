@@ -42,7 +42,7 @@ We only used training set of SQuAD datasets.
 <br>`SHA-1 Checksum : 408809150A23B4B99EFD21AF2B4ACEA52B31F3D9`
 *   **[`BioBERT v1.1 - SQuAD v2.0`](http://nlp.dmis.korea.edu/projects/bioasq-biobert-2019-checkpoints/BERT-pubmed-1000000-SQuAD2.tar.gz)** : Recommanded for yseno questions
 <br>`SHA-1 Checksum : 9A10621691BFEB834CBFD5F81E9D2C099247803A`
-*   **[`bert_config.json`](https://drive.google.com/open?id=17fX1-oChZ5rxu-e-JuaZl2I96q1dGJO4) [`vocab.txt`](https://drive.google.com/open?id=1GQUvBbXvlI_PeUPsZTqh7xQDZMOXh7ko)** : Essential files.
+*   **[`bert_config.json`](http://nlp.dmis.korea.edu/projects/bioasq-biobert-2019-checkpoints/bert_config.json) [`vocab.txt`](http://nlp.dmis.korea.edu/projects/bioasq-biobert-2019-checkpoints/vocab.txt)** : Essential files.
 
 As an alternative option, you may wish to pre-train from scratch. In that case, please follow :
 ```
